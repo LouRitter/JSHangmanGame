@@ -3,19 +3,31 @@
 <head>
 	<title>SpaceMan</title>
 		<script type="text/javascript" src="game.js"></script>
-
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body background="assets/images/space.jpg">
 
-	<h1> SpaceMan</h1>
+<div class="fluid-container">
+	<img src="assets/images/SpaceHangLogo.png">
 
 	<h3>Word:</h3>
-	<div class="word"></div>
+	<div id="word"></div>
 
 	<h3>Guesses Left</h3>
-	<div class="guess"></div>
+	<div id="guess"></div>
 
+	<h3>Letters Guessed</h3>
+	<div id="lettersGuessed"></div>
 
-	
+	<h3>Wins</h3>
+	<div class="wins"></div>
+
+	<h3>Losses</h3>
+	<div id="loses"></div>
+
+</div>
+
 </body>
 </html>
