@@ -1,7 +1,4 @@
-
-
-
-var wordsList   = ["space", "nasa", "spaceship", "astronaut", "uranus", "earth", "neptune", "mars", "saturn", "sun", "moon", "stars", "universe", "planet", "jupiter", "galaxy"];
+var wordsList   = ["jerome", "neena", "darion", "lou", "greg", "jordan", "jasmine", "stephen", "jacob", "adam", "rui", "luis"];
 var chosenWord  = ""; // solution will be held here.
 var lettersInChosenWord = []; // This will break the solution into individual letters to be stored in array
 var numBlanks	= 0; // This will be the number of blanks we show based on the solution
